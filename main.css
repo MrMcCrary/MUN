@@ -1,0 +1,102 @@
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+
+body {
+    
+    background-image: url('assets/un-logo-small.png');
+    background-repeat: repeat;
+    background-size: 100px;
+    background-attachment: fixed;
+    
+    
+}
+
+header{
+    margin-top: 32px;
+}
+.nav-bar {
+    background: #FFD700;
+    margin: 0 auto;
+    width: 66%;
+    font-size: 96px;
+    padding: 32px;
+    padding-bottom: 64;
+    font-weight: bold;
+
+}
+.nav-bar-options {
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+
+
+.nav-bar-options span {
+    padding-right: 16;
+    padding-left: 16;
+}
+.title {
+    text-align: center;
+}
+
+.main-content{
+    margin: 0 auto;
+    width: 66%;
+    margin-top: 32px;
+    background-color: white;
+    align-self: center;
+    padding: 32px;
+    min-height: calc(100vh - 421px);
+ 
+}
+.page-title{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.bio {
+    color: orange;
+    float:right;
+    width: 100%;
+}
+
+.people {
+    vertical-align: middle;
+}
+
+.pic {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    width: 15%;
+    vertical-align: top;
+    max-width: 750px;
+    float: left;
+
+}
+
+.member {
+    float: left;
+    display: block;
+}
+
+footer {
+    margin: 0 auto;
+    width: 66%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 32px;
+    text-align: center;
+    background: #FFD700;
+    max-height: 80px;
+    
+}
+
+a {text-decoration: none;}
+a.nav-bar-options-inactive:link {color: white}
+a.nav-bar-options-inactive:visited  {color: white}
+a.nav-bar-options-inactive:hover {color: blue;}
+a.nav-bar-options-active {color: blue;}
+a.title:visited {color: blue}
