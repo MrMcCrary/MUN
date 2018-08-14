@@ -51,20 +51,17 @@ header{
     align-self: center;
     padding: 32px;
     min-height: calc(100vh - 421px);
- 
+    
+
 }
 .page-title{
     text-align: center;
-    padding-bottom: 20px;
-}
-.bio {
-    color: orange;
-    float:right;
-    width: 100%;
+    padding: 20px;
 }
 
 .people {
-    vertical-align: middle;
+    width:100%;
+    margin: 0 auto;
 }
 
 .pic {
@@ -78,9 +75,11 @@ header{
 }
 
 .member {
-    float: left;
-    display: block;
+    display: inline-block;
+    padding:0.2em;
+    width:25em;
 }
+
 
 footer {
     margin: 0 auto;
@@ -94,9 +93,28 @@ footer {
     
 }
 
+.tier-one {
+    width: 32%;
+     
+}
+
+
+table, td {
+    border: 2px solid black;
+}
+
+button {
+    color: black;
+    height: 100px;
+    background-color: lightblue;
+    font-size: 40px;
+}
+
+
 a {text-decoration: none;}
 a.nav-bar-options-inactive:link {color: white}
 a.nav-bar-options-inactive:visited  {color: white}
 a.nav-bar-options-inactive:hover {color: blue;}
 a.nav-bar-options-active {color: blue;}
 a.title:visited {color: blue}
+a.title:active {color: blue}
