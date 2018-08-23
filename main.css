@@ -7,9 +7,9 @@
 
 body {
     
-    background-image: url('assets/un-logo-small.png');
-    background-repeat: repeat;
-    background-size: 100px;
+    background-image: url('/assets/mun.jpg');
+    
+    background-size: 100%;
     background-attachment: fixed;
     
     
@@ -19,9 +19,9 @@ header{
     margin-top: 32px;
 }
 .nav-bar {
-    background: #FFD700;
+    background: whitesmoke;
     margin: 0 auto;
-    width: 66%;
+    width: 75%;
     font-size: 96px;
     padding: 32px;
     padding-bottom: 64;
@@ -45,7 +45,7 @@ header{
 
 .main-content{
     margin: 0 auto;
-    width: 66%;
+    width: 75%;
     margin-top: 32px;
     background-color: white;
     align-self: center;
@@ -77,13 +77,13 @@ header{
 .member {
     display: inline-block;
     padding:0.2em;
-    width:25em;
+    width:33em;
 }
 
 
 footer {
     margin: 0 auto;
-    width: 66%;
+    width: 75%;
     margin-top: 32px;
     margin-bottom: 32px;
     padding: 32px;
