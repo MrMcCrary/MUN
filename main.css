@@ -101,7 +101,7 @@ footer {
 }
 
 .tier-one {
-    width: 32%;
+    max-height: 200px;
      
 }
 
